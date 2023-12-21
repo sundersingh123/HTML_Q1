@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Noto+Sans:ital@1&family=Oswald:wght@200&family=Playfair+Display:ital,wght@1,500&family=Roboto+Slab:wght@500&display=swap');
+
+:root{
+    --border: rgb(236, 226, 226);
+}
+div.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main.main-container{
+    padding: 5px;
+    height: 70vh;
+    width: 90%;
+    background-color: whitesmoke;
+    display: flex;
+    border: 15px solid var(--border);
+}
+main.main-container .left{
+height: 100%;
+width: 30%;
+}
+main.main-container .left .img-container{
+    height: 90%;
+    width: 100%;
+    background-image: repeating-radial-gradient(circle,red ,rgb(124, 19, 19));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+}
+main.main-container .left .img-container img{
+    height: 90%;
+    aspect-ratio: 1/1;
+}
+main.main-container .left .content{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(124, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main.main-container .left .content h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+letter-spacing: .1rem;
+}
+main.main-container .right{
+    padding: 25px;
+    height: 100%;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3rem;
+}
+main.main-container .right h3{
+    font-family: sans-serif;
+}
+main.main-container .right p{
+    line-height: 1.3rem;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main.main-container .right div.anchor a{
+color: rgb(17, 110, 197);
+font-weight: bold;
+}
+main.main-container .right .list dl dt{
+    line-height: 2rem;
+    font-weight: bold;
+}
+main.main-container .right .list dl dd{
+    position: relative;
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+main.main-container .right .list dl dd::before{
+content: "";
+list-style: disc;
+height: 8px;
+width: 8px;
+background-color: black;
+position: absolute;
+border-radius: 50%;
+left: -4%;
+top: 10%;
+
+}
+
+ main.main-container .right .list footer{
+    line-height: .1rem;
+ }
+ main.main-container .right .list footer img{
+    border-radius: 70%;
+    height: 3rem;
+    aspect-ratio: 1/1;
+    margin-top: -14px;
+ }
+
+
+
